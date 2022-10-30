@@ -34,8 +34,7 @@ public class Mavenproject1 {
         var response = client.send(request, HttpResponse.BodyHandlers.ofString());
         JSONObject obj = new JSONObject(response.body());
         // the response:
-        System.out.println(obj.get(""));
-        System.out.println("test");
+        System.out.println(obj);
 
     }
 }
